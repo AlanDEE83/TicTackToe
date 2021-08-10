@@ -1,0 +1,105 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  text-align: center;
+}
+.one {
+  grid-column: 1 / 4;
+  grid-row: 1;
+}
+.two {
+  grid-column: 1;
+  grid-row: 2 /4;
+  border: 3px dashed red;
+}
+.three {
+  grid-column: 2;
+  grid-row: 2 / 4;
+  border: 3px dashed orange;
+}
+.four {
+  grid-column: 3;
+  grid-row: 2 / 4;
+  border: 3px dashed yellow;
+}
+.five {
+  grid-column: 1;
+  grid-row: 4 / 6;
+  border: 3px dashed yellowgreen;
+}
+.six {
+  grid-column: 2;
+  grid-row: 4 / 6;
+  border: 3px dashed green;
+}
+.seven {
+  grid-column: 3;
+  grid-row: 4 / 6;
+  border: 3px dashed blue;
+}
+.eight {
+  grid-column: 1;
+  grid-row: 6 / 8;
+  border: 3px dashed blueviolet;
+}
+.nine {
+  grid-column: 2;
+  grid-row: 6 / 8;
+  border: 3px dashed violet;
+}
+.ten {
+  grid-column: 3;
+  grid-row: 6 / 8;
+  border: 3px dashed purple;
+}
+
+.eleven {
+  grid-column: 1 / 4;
+  grid-row: 1;
+}
+.twelve {
+  border: 3px dashed red;
+}
+.thirteen {
+  border: 3px dashed orange;
+}
+.fourteen {
+  border: 3px dashed yellow;
+}
+.fifteen {
+  border: 3px dashed yellowgreen;
+}
+.sixteen {
+  border: 3px dashed green;
+}
+.seventeen {
+  border: 3px dashed blue;
+}
+.eighteen {
+  border: 3px dashed blueviolet;
+}
+.nineteen {
+  border: 3px dashed violet;
+}
+.twenty {
+  border: 3px dashed purple;
+}
+
+
+.test {
+    border: 3px dashed grey;
+}
+
+.test-1 {
+    border: 2px solid yellowgreen;
+}
+
+.test-2 {
+  border: 2px solid purple;
+}
+
+.test-3 {
+  border: 4px dashed hotpink;
+}
